@@ -31,7 +31,7 @@ def initialize_rasterizer(dir_input):
         'ext_input': '.gpkg',
         # The path to the directory where we want the output tiles to be saved
         # (this will be created if it doesn't exist)
-        'dir_staged': "staged",
+        'dir_staged': "/home/shares/staged",
         'simplify_tolerance': None,
 
         # Where two store the two formats of the output raster tiles
